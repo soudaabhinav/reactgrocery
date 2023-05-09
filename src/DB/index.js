@@ -1,0 +1,200 @@
+const Featured = [
+  {
+    image: require("./assets/cal.png"),
+    unit: "250g",
+    title: "Chinese Cabbage",
+    price: "$1.65",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+
+  {
+    image: require("./assets/image 14.png"),
+    unit: "1 Kg",
+    title: "Tata Salt Litelow Sodium Iodised",
+    price: "$2.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 15.png"),
+    unit: "Each One",
+    title: "Fresh Avacoda",
+    price: "$0.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 16.png"),
+    unit: "50 g",
+    title: "Knorr Thick Tomato Soup",
+    price: "$2.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 17.png"),
+    unit: "120g",
+    title: "Meera Herbal Hairwash Powder",
+    price: "$4.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 24.png"),
+    unit: "450 g",
+    title: "Potato Yukon Gold",
+    price: "$2.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 24.png"),
+    unit: "450 g",
+    title: "Potato Yukon Gold",
+    price: "$2.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 24.png"),
+    unit: "450 g",
+    title: "Potato Yukon Gold",
+    price: "$2.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+];
+
+const weeklySpecial = [
+  {
+    image: require("./assets/image 24.png"),
+    unit: "450 g",
+    title: "Potato Yukon Gold",
+    price: "$2.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+
+  {
+    image: require("./assets/image 25.png"),
+    unit: "400 g",
+    title: "Haldiram Boondi (Plain)",
+    price: "$4.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 26.png"),
+    unit: "4.5 kg",
+    title: "Zebra Basmati Rice",
+    price: "$16.19",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 27.png"),
+    unit: "Each One",
+    title: "Beets",
+    price: "$1.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 22.png"),
+    unit: "240 g",
+    title: "Chings Schezwan Noodles",
+    price: "$2.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 24.png"),
+    unit: "450 g",
+    title: "Potato Yukon Gold",
+    price: "$2.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 24.png"),
+    unit: "450 g",
+    title: "Potato Yukon Gold",
+    price: "$2.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+];
+
+const Topseller = [
+  {
+    image: require("./assets/image 23.png"),
+    unit: "Each One",
+    title: "Lemon",
+    price: "$.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+
+  {
+    image: require("./assets/image 19.png"),
+    unit: "180 g",
+    title: "Deep Mathia Khakhara",
+    price: "$3.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 27.png"),
+    unit: "Each One",
+    title: "Broccoli Floret",
+    price: "$0.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 20.png"),
+    unit: "1 Kg",
+    title: "Haldiram Rasmalai (In Tin)",
+    price: "$4.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 22.png"),
+    unit: "240 g",
+    title: "Chings Schezwan Noodles",
+    price: "$2.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 19.png"),
+    unit: "180 g",
+    title: "Deep Mathia Khakhara",
+    price: "$3.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+  {
+    image: require("./assets/image 27.png"),
+    unit: "Each One",
+    title: "Broccoli Floret",
+    price: "$0.99",
+    shop: require("./assets/shop.png"),
+    cart: require("./assets/cart.png"),
+  },
+];
+
+const fest = [
+  { image: require("./assets/1.png") },
+  { image: require("./assets/2.png") },
+  { image: require("./assets/3.png") },
+];
+
+export default {
+  weeklySpecial,
+  Topseller,
+  Featured,
+  fest,
+};

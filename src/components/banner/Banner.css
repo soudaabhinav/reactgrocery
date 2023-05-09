@@ -1,0 +1,16 @@
+.banner {
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 1px;
+  left: 60px;
+}
+
+.banner:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.img {
+  width: auto;
+  height: auto;
+}

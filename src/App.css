@@ -1,0 +1,239 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.ico {
+  position: absolute;
+  left: 60px;
+  top: 17px;
+}
+
+.weekly {
+  /* weekly spl */
+  position: absolute;
+
+  left: 250px;
+  top: 180px;
+}
+.line {
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  left: 1px;
+  top: 70px;
+}
+
+.vtext {
+  /* view all */
+
+  position: absolute;
+  width: 58px;
+  height: 20px;
+  left: 1370px;
+  top: -50px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #353839;
+}
+
+.wtext {
+  /* Weekly Special */
+
+  position: absolute;
+
+  left: 60px;
+  top: -80px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 38px;
+  /* identical to box height */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App {
+  position: relative;
+
+  background: #fbf7f4;
+}
+
+.top {
+  position: absolute;
+  display: flex;
+  top: 1050px;
+  left: 250px;
+
+  column-gap: 25px;
+}
+
+.fea {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 250px;
+  top: 625px;
+  column-gap: 25px;
+}
+
+.fest {
+  position: absolute;
+
+  display: flex;
+  left: 250px;
+
+  top: 1500px;
+  column-gap: 25px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dimge {
+  position: absolute;
+  width: 203px;
+  height: 244px;
+  left: 350px;
+  top: 2350px;
+}
+
+.Sub {
+  position: absolute;
+  width: 451px;
+  height: 45px;
+  left: 550px;
+  top: 2392px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -0.02em;
+
+  color: #353839;
+}
+
+.in {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 355px;
+  height: 50px;
+  left: 575px;
+  top: 2501px;
+
+  border: 2px solid #e5deda;
+  border-radius: 100px;
+}
+
+.su {
+  position: absolute;
+  width: 580px;
+  height: 18px;
+  left: 538px;
+  top: 2457px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #353839;
+}
+
+.vimge {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 890px;
+  top: 2516px;
+}
+.em {
+  /* Email ID */
+
+  position: absolute;
+  width: 55px;
+  height: 18px;
+  left: 590px;
+  top: 2505px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #353839;
+}
+
+.down {
+  position: absolute;
+  left: 200px;
+  top: -500px;
+}
+.weeklyitems {
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  width: 1400px;
+  overflow-x: scroll;
+  overflow: hidden;
+  padding: 10px;
+}
+.cardbox {
+  display: flex;
+}
+.al {
+  max-height: 30px;
+  margin-top: 150px;
+  margin-right: 30px;
+}
+
+.ar {
+  max-height: 30px;
+  margin-top: 150px;
+  margin-left: 30px;
+}
